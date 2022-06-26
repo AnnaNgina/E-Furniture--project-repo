@@ -1,0 +1,76 @@
+body{
+
+    padding: 10px;
+}
+header{
+
+    text-align: center;
+    font-size: 35px;
+    font-family:Georgia;
+    height: 50px;
+    border-radius: 12px;
+
+    
+  
+}
+ul{
+    list-style-type: none;
+    margin: none;
+    padding: none;
+    overflow: hidden;
+   
+    
+}
+li{
+    float: right;
+    font-size: 19px;
+}
+    li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+      }
+      
+      .picture {
+        position:relative;
+        width: 100%; 
+        margin: 0 auto; 
+      }
+      
+      .picture .information-houses {
+        position: absolute; 
+        bottom: 0; 
+        background: rgb(0, 0, 0); 
+        background: rgba(0, 0, 0, 0.5); 
+        color: white;
+        width: 100%; 
+        padding: 20px; 
+        font-family: Georgia;
+        font-style: italic;
+      }
+
+span{
+    color: rgb(71, 71, 133);
+}
+hr{
+    width: 100%;
+    color:blue;
+    border-width: 5px;
+}
+footer{
+    
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia;
+    padding-top:0%;
+    background-color: black;
+    color: white;
+   
+}
+.row{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
