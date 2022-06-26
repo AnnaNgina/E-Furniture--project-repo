@@ -35,7 +35,7 @@
     </div>   
   </header>
   <br><br><br><br><br><br><br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <div class="grid-container">
+    <div class="container">
         <div class="row" id="content">
           <div class="col-md-3" div id="houses">
             <h2>Card Image</h2>
@@ -51,10 +51,53 @@
     </div> 
 </div> 
 </div> 
-<form>
-        <label for="comment">Leave Comment </label>
-        <textarea="" value="text" name="comment">
-    </form>
+<section id="reach-us">
+    <div class="form-container">
+        <h1>Reach Us</h1>
+        <form action="" id="contact-form">
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">First Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Last Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="country">Country</label>
+            </div>
+            <div class="col-75">
+              <select id="country" name="country">
+                <option value="Kenya">Kenya</option>
+                <option value="Uganda">Uganda</option>
+                <option value="Tanzania">Tanzania</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Subject</label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="subject" placeholder="Type here.." style="height:200px"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Submit" id="sub-button">
+          </div>
+        </form>
+      </div>
+
+</section>
     <footer>
             <hr>
      contact us on:
