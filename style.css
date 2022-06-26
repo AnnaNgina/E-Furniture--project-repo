@@ -69,11 +69,9 @@ footer{
     color: white;
    
 }
-.grid-container{
-   display: grid;
-    grid-template-columns: auto auto auto;
-    row-gap: 30px;
-    column-gap: 30px;
+.card{
+   display: flex;
+    flex-direction: row;
 
 
 }

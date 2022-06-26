@@ -9,7 +9,7 @@ data.map(value =>{
   
     html+=`
 
-    <div class="col-md-3">
+    <div class="col-md-4">
     <div class="card" style="width:400px">
         <img class="card-img-top" src="${value.imageurl}" style="width:100%">
         <div class="card-body">
