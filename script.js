@@ -13,9 +13,9 @@ data.map(value =>{
     <div class="card" style="width:400px">
         <img class="card-img-top" src="${value.imageurl}" style="width:100%">
         <div class="card-body">
-          <h4 class="card-title">${value.location}</h4>
-          <h3 class="card-description">${value.price}</h3>
-          <p class="card-text">${value.phone}</p>
+          <h4 class="card-title">${value.price}</h4>
+          <h3 class="card-description">${value.type}</h3>
+          <p class="card-text">${value.location}</p>
           <a href="#" class="btn btn-primary">See Profile</a>
         </div>
       </div>
