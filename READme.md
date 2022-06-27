@@ -3,7 +3,7 @@ Author
 Annastacia Ngina
 Created on 27/06/2022
 Project Description
-This project entails rental/appartments with spaces for rent. It will save time as people wont be moving from door to door to loook for empty houses to rent. They lookthrought the website see the posted empty house, location, address and te phone number to communicate with the owner. 
+This project entails Furniture system. It will save time as people wont be moving from place to place to look for furniture. The website will provide a platform where clients can view the furnitures, know the location, address and the phone number to communicate with the sellers. 
 How it works
 Open the website
 Click the start quiz button

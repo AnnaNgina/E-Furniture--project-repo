@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
 )
 const input = document.getElementById("button")
 function clickAlert() 
-{ alert("Thank you, write your request below");
+{ alert("Thank you! write your request below");
  }
  input.addEventListener('click', clickAlert);
 
