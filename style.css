@@ -76,7 +76,7 @@ footer{
     display: grid;
     grid-gap: 30px;
     grid-template: auto / repeat(auto-fit, minmax(350px, 1fr));
-    padding-left: 20px;
+    /* padding-left: 20px; */
 
 
 }
@@ -93,7 +93,7 @@ input[type=text], select, textarea{
     display: inline-block;
   }
   input[type=submit] {
-    background-color: rgb(68, 68, 141);
+    background-color: rgb(68, 141, 86);
     color: white;
     padding: 12px 20px;
     border: none;
